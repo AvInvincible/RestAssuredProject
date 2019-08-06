@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4259" started-at="2019-08-06T13:16:13Z" finished-at="2019-08-06T13:16:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4259" started-at="2019-08-06T13:16:13Z" finished-at="2019-08-06T13:16:18Z">
+      <class name="com.avinc.RestAssuredProject.GetRequestTest">
+        <test-method status="PASS" signature="verifyWheaterDetails()[pri:0, instance:com.avinc.RestAssuredProject.GetRequestTest@7823a2f9]" name="verifyWheaterDetails" duration-ms="4202" started-at="2019-08-06T13:16:13Z" finished-at="2019-08-06T13:16:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWheaterDetails -->
+      </class> <!-- com.avinc.RestAssuredProject.GetRequestTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

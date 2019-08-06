@@ -1,0 +1,53 @@
++++++++++++ RestAssured +++++++++++++
+
+1. RestAssured - It is a java based library to test Restful web service. RestAssured behave as a headless
+client to make request to the server
+
+2. Client - A machine/system which make request to the server for the information. Or we can say the 
+system which consume the data
+
+3. Server - A machine/system which receive the request from the client process the request and provide 
+response in form of json/xml format
+
+4. HTTP Request - HTTP Request is a protocol/set of binary data send by the client to the server while request for the 
+information.
+-- HTTP Request Line
+-- HTTP Request Body
+
+5. HTTP Response - HTTP Response is a packet of information send by the server to client
+
+-----------------------------------------------------------------------------------------
+
++++++++++++++ Rest +++++++++++++++++++++
+
+1. REST - REST is a Representation State Transfer. It is a set of constraints
+Constraints are - 
+- Client – Server Architecture style : Application could be modeled like a client-server arch. The UI
+components should be separate from the backend 
+
+- Stateless - This constraint state that the server should not store the client context. Each of the 
+request should be treated as a unique.
+
+- Cache - This state that whether we the response from server should be cached by the client. For the caching response 
+the response are taken from the cache instead from the server. Which save the bandwidth.
+
+- Uniform interface
+- Layered System - This constraint state that the system should be layered
+- Code on demand - Downloadable code 
+  
+  --------------------------------------------------------------------------
+  
+  ++++++++ REST ARCH ELEMENT +++++++++++++++
+  
+  1. Resource - The actual information on the server 
+  2. Resource Identifier - The unique identifier to find the info on the server 
+  3. Representation - The resource can be represented as HTML, XML or json
+  4. Representation meta data - Additional information, like the content-type in the response tell
+  the client how to interpret the response data receive from the server
+  
+  --------------------------------------------------------------------------
+
+  +++++++++++++++ Set Up +++++++++++++++++++++++++++++
+  
+  Jars Required - RestAssured jar
+  
